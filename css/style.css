@@ -1,0 +1,510 @@
+/* Importando CSS de Tabelas */
+@import url('./reset.css');
+@import url('./tabela.css');
+
+/* Style Pages*/
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  font-size: 62.5%; /* equivalente a 10px*/
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #454545;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* Style the header */
+#primeiro-link a {
+  color: #fff;
+}
+
+ul {
+  padding: 2px;
+  font-size: 20px;
+}
+
+ul li {
+  font-size: 0.8em; /* equivalente a 16px*/
+  padding: 2px;
+}
+
+p {
+  font-size: 1.6rem; /* equivalente a 16px*/
+}
+
+h2 {
+  font-size: 2rem; /* equivalente a 20 px */
+  font-size: 40px;
+}
+h3 {
+  font-size: 1.6rem;
+}
+
+.navegacao {
+  background-color: transparent;
+  display: block;
+}
+
+/* Form */
+
+form div {
+  background-color: rgb(247, 246, 246);
+  border: 0px dashed #999;
+  border-bottom: 1px solid #33f;
+  margin: rem 1.6rem;
+  margin-bottom: 0;
+  padding: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+[type='text'],
+[type='email'],
+[for='mensagem'],
+textarea {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #33f;
+}
+
+select {
+  width: 20%;
+}
+
+/* Header Style */
+
+header {
+  display: inline-block;
+  background-color: purple;
+  background-image: linear-gradient(
+    45deg,
+    rgb(117, 172, 255),
+    rgb(214, 104, 177),
+    purple
+  );
+  width: 100%;
+  height: 100px;
+}
+
+header img {
+  float: left;
+  padding: 25px;
+}
+
+header h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 31px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+section {
+  width: 100%;
+  border-radius: 80%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 750px;
+  color: #ffffff;
+  background: rgb(117, 172, 255);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+.navegacao li {
+  list-style-type: none;
+  padding: 0;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  text-align: left;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav h3 {
+  text-align: left;
+}
+
+.redessociais {
+  padding-top: 10px;
+}
+
+.socialmedia {
+  display: flex;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffffff;
+  padding-bottom: 0;
+}
+
+#articletext {
+  text-align: center;
+}
+article ul,
+h2 {
+  padding-left: 0;
+}
+
+article li {
+  list-style-type: none;
+}
+#grafico-redondo {
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+article img {
+  width: 200px;
+}
+#citacao {
+  width: 700px;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1.5;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+article h1 {
+  font-size: 28px;
+}
+
+article p {
+  padding-left: 0;
+
+  margin-bottom: 5px;
+}
+
+article h3 {
+  text-align: center;
+}
+
+#layoutp {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: rgb(204, 204, 204);
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(192, 240, 255);
+  background-image: linear-gradient(
+    45deg,
+    rgb(117, 172, 255),
+    rgb(206, 56, 156),
+    purple
+  );
+  height: 50px;
+  padding-top: 0;
+  text-align: center;
+  color: white;
+  margin: 0%;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+.videoebac {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+iframe {
+  width: 100;
+  height: 100;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+  }
+
+  header img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
+
+  header h4 {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article {
+    width: 100%;
+    height: auto;
+  }
+  #grafico-redondo {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  article img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  article li,
+  h2,
+  h3,
+  h1 {
+    text-align: center;
+  }
+  .videoebac {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  article p {
+    margin-top: 5px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+  form div {
+    background-color: rgb(247, 246, 246);
+    border: 0px dashed #999;
+    border-bottom: 1px solid #33f;
+    margin: 0.2rem 1.6rem;
+    margin-bottom: 0.2rem;
+    padding: 1.5rem;
+    padding-bottom: 0.8rem;
+  }
+
+  #citacao {
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+  form div {
+    position: static;
+    position: relative;
+    margin-top: 10px;
+  }
+  label {
+    position: absolute;
+    top: 3px;
+    margin: 1px;
+  }
+}
+
+/* SMARTPHONE */
+
+@media (max-width: 320px) {
+  select {
+    width: 30%;
+  }
+  ul li {
+    font-size: 0.7em; /* equivalente a 16px*/
+    padding: 0;
+    padding: 2px;
+  }
+
+  nav {
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  header img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  header h4 {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 2px;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  iframe {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  form div {
+    position: static;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  form div p {
+    font-size: 1.2rem;
+  }
+
+  label {
+    position: absolute;
+    top: 5px;
+    margin: 0;
+  }
+
+  article {
+    padding: 2px;
+  }
+  article li {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  #grafico-redondo {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  article img {
+    width: 100px;
+    height: 100px;
+  }
+  #citacao {
+    width: auto;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+
+  article #nomealuno {
+    font-size: 22px;
+    text-align: center;
+  }
+
+ #h3table{
+   font-size: 1.0rem;
+   padding: 10px;
+ }
+}

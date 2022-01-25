@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Curso Front-End - HTML</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./image/Ebac Logo.svg" alt="logo Ebac" />
+      <h4>Profissão</h4>
+      <h2>Engenheiro Front-End</h2>
+    </header>
+
+    <section>
+      <nav>
+        <h3>Exercícios</h3>
+        <ul class="navegacao">
+          <li id="primeiro-link"><a href="./index.html">Inicio</a></li>
+          <li><a href="./layout.html">Layout</a></li>
+          <li><a href="./formulario.html">Formulários</a></li>
+          <li><a href="./tabela.html">Tabela CSS</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+        <div class="redessociais">
+          <h3>Redes Sociais</h3>
+          <ul class="socialmedia">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jonathanppmaia/"
+                target="_blank"
+                ><img
+                  src="./image/linkedinicon.svg"
+                  alt="Linkedin Jonathan Maia"
+                  width=""
+                  height="25px"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/jonathanppmaia/"
+                target="_blank"
+                ><img
+                  src="./image/instagramicon.svg"
+                  alt="Instagram Jonathan Maia"
+                  width="50px"
+                  height="25px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <article>
+        <div id="articletext">
+          <h1>Contato</h1>
+          <p id="pcontato">Preencha os campos abaixo para entrar em contato comigo</p>
+        </div>
+        <form method="post">
+          <div>
+            <label for="nome">Nome</label><br />
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome"
+            />
+          </div>
+          <div>
+            <label for="email">E-mail</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail "
+            />
+          </div>
+          <div>
+            <label for="mensagem">Mensagem</label><br />
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="submit" />
+          </div>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <p>Desenvolvido por Jonathan Maia</p>
+    </footer>
+  </body>
+</html>
