@@ -2,8 +2,7 @@
 
 Website desenvolvido como atividade para os módulos iniciais de HTML5 e CSS3 no o curso de Engenheiro Front End na E.B.AC.
 
-#### Desktop Screen - Breakpoint 320x480
-
+Desktop Screen - Breakpoint 320x480
 <div style="display:inline_block">
 <img alt="Imagem do projeto" src="https://github.com/jonathanppmaia/websiteebac/blob/main/image/desktopprojeto01.PNG?raw=true" >
 </div>
