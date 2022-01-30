@@ -257,12 +257,13 @@ footer {
     rgb(206, 56, 156),
     purple
   );
-  height: 20%;
-  width: 100vw;
+  height: 50px;
+  width: 100%;
   padding-top: 0;
   text-align: center;
   color: white;
   margin: 0%;
+  display: block;
 }
 
 footer p {
