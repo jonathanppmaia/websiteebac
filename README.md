@@ -3,6 +3,7 @@
 Website desenvolvido como atividade para os módulos iniciais de do curso de Engenheiro Front End na **EBAC - Escola Britânica de Artes Criativas e Tecnologia**.
 
 **Linguagens Utilizadas:**
+
 **HTML:**
 
 - Listas e Links;
@@ -25,7 +26,7 @@ Website desenvolvido como atividade para os módulos iniciais de do curso de Eng
 - Layout Semantico;
 - Web Design Responsivo.
 
-**Tutoras**:Beatriz Nonato e Victória Durães.
+**Tutoras**: Beatriz Nonato e Victória Durães.
 
 <div style="display:inline_block">
 <img alt="Imagem do projeto" src="https://github.com/jonathanppmaia/websiteebac/blob/main/image/projeto01.jpg?raw=true" >

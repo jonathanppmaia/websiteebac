@@ -144,7 +144,7 @@ section {
 nav {
   float: left;
   width: 20%;
-  height: 750px;
+  height: 100vh;
   color: #ffffff;
   background: rgb(117, 172, 255);
   padding: 20px;
