@@ -35,6 +35,9 @@ __Tutoras__:Beatriz Nonato e Victória Durães.
 <div style="display:inline_block">
 <img alt=" Versão Desktop" src="https://github.com/jonathanppmaia/websiteebac/blob/main/image/projeto02.jpg?raw=true" >
 </div>
+<div style="display:inline_block">
+<img alt="Versão Tablet" src="https://github.com/jonathanppmaia/websiteebac/blob/main/image/projeto03.jpg?raw=true" >
+
 
 <div style="display:inline_block">
 <img alt="Versão SmartPhone" src="https://github.com/jonathanppmaia/websiteebac/blob/main/image/projeto03.jpg?raw=true" >
