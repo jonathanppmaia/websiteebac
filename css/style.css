@@ -137,7 +137,7 @@ header h2 {
 /* Create two columns/boxes that floats next to each other */
 
 section {
-  width: 100%;
+  width: 80vh;
   border-radius: 80%;
   height: 100vh;
 }
@@ -258,7 +258,6 @@ footer {
     purple
   );
   height: 50px;
-  width: 100%;
   padding-top: 0;
   text-align: center;
   color: white;
