@@ -137,19 +137,17 @@ header h2 {
 /* Create two columns/boxes that floats next to each other */
 
 section {
-  width: 80vh;
+  width: 100%;
   border-radius: 80%;
-  height: 100vh;
 }
 
 nav {
   float: left;
   width: 20%;
-  height: 100%;
+  height: 800px;
   color: #ffffff;
   background: rgb(117, 172, 255);
   padding: 20px;
-  padding-bottom: 0px;
 }
 
 /* Style the list inside the menu */
@@ -184,6 +182,7 @@ article {
   float: right;
   padding: 20px;
   width: 80%;
+  height: auto;
   background-color: #ffffff;
   padding-bottom: 0;
 }
