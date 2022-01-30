@@ -4,24 +4,24 @@ Website desenvolvido como atividade para os módulos iniciais de do curso de Eng
 
 **Linguagens Utilizadas:** 
 __HTML:__
-*Listas e Links;
-*Elementos de Layout;
-*Formulários e Tabelas
-*Tabelas e Layouts Tabelados
+* Listas e Links;
+* Elementos de Layout;
+* Formulários e Tabelas
+* Tabelas e Layouts Tabelados
   
  __CSS:__
-  *Seletores;
-  *Box Model;
-  *Posicionamento de Elementos;
-  *Combinadores;
-  *Reset;
-  *CSS para Tabelas;
-  *Layouts Fluidos;
-  *Adaptação de Imagens para Web;
-  *Elementos Gráficos do HTML;
-  *Filtros e Manipulações com CSS;
-  *Layout Semantico;
-  *Web Design Responsivo.
+  * Seletores;
+  * Box Model;
+  * Posicionamento de Elementos;
+  * Combinadores;
+  * Reset;
+  * CSS para Tabelas;
+  * Layouts Fluidos;
+  * Adaptação de Imagens para Web;
+  * Elementos Gráficos do HTML;
+  * Filtros e Manipulações com CSS;
+  * Layout Semantico;
+  * Web Design Responsivo.
 
 __Tutoras__:Beatriz Nonato e Victória Durães.
 
