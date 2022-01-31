@@ -391,6 +391,59 @@ iframe {
     top: 3px;
     margin: 1px;
   }
+  /*smart table screen */
+  table tbody tr td {
+    display: block;
+    text-align: right;
+  }
+
+  .table-container table tfoot tr td {
+    display: block;
+    text-align: right;
+  }
+
+  table tbody tr td:before {
+    content: attr(data-title);
+    position: absolute;
+    left: 5px;
+    display: block;
+  }
+
+  .table-container table tfoot tr td:before {
+    content: attr(data-title);
+    position: absolute;
+    left: 5px;
+    display: block;
+  }
+
+  table {
+    border: none;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  .products {
+    display: none;
+  }
+
+  table tbody tr {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  table tbody tr:nth-child(even) {
+    background-color: #eeeeff;
+  }
+
+  .table-container table tfoot tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  #tfootfirsttd {
+    text-align: center;
+  }
 }
 
 /* SMARTPHONE */
@@ -503,8 +556,70 @@ iframe {
     text-align: center;
   }
 
+  #layoutp {
+    margin: 10px 10px;
+  }
   #h3table {
-    font-size: 1rem;
-    padding: 10px;
+    font-size: 1.2rem;
+
+    line-height: 1.8rem;
+  }
+
+  table tbody tr:nth-child(even) {
+    background-color: #eeeeff;
+  }
+
+  /*smart table screen */
+  table tbody tr td {
+    display: block;
+    text-align: right;
+  }
+
+  .table-container table tfoot tr td {
+    display: block;
+    text-align: right;
+  }
+
+  table tbody tr td:before {
+    content: attr(data-title);
+    position: absolute;
+    left: 5px;
+    display: block;
+  }
+
+  .table-container table tfoot tr td:before {
+    content: attr(data-title);
+    position: absolute;
+    left: 5px;
+    display: block;
+  }
+
+  table {
+    border: none;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  .products {
+    display: none;
+  }
+
+  table tbody tr {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  table tbody tr:nth-child(even) {
+    background-color: #eeeeff;
+  }
+
+  .table-container table tfoot tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  #tfootfirsttd {
+    text-align: center;
   }
 }
