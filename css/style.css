@@ -198,7 +198,7 @@ article li {
   list-style-type: none;
 }
 #grafico-redondo {
-  background-color: brown;
+  background-color: rgb(117, 172, 255);
   width: 200px;
   height: 200px;
   overflow: hidden;
