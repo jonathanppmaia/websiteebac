@@ -327,7 +327,7 @@ iframe {
     height: auto;
   }
   #grafico-redondo {
-    background-color: brown;
+    background-color: brow;
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -529,7 +529,7 @@ iframe {
   }
 
   #grafico-redondo {
-    background-color: brown;
+    background-color: rgb(117, 172, 255);
     width: 100px;
     height: 100px;
     overflow: hidden;
